@@ -7,3 +7,6 @@ yarn
 yarn start
 yarn add @usedapp/core
 yarn add @material-ui/core
+
+pip install pyyaml
+
