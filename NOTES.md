@@ -10,3 +10,10 @@ yarn add @material-ui/core
 
 pip install pyyaml
 
+brownie run scripts/update_front_end.py
+
+check helper config dev id
+
+cd ./front_end/
+yarn add ethers
+
