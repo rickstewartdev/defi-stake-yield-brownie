@@ -24,24 +24,24 @@ export const Main = () => {
     const wethTokenAddress = chainId ? brownieConfig["networks"][networkName]["weth_token"] : constants.AddressZero
     const fauTokenAddress = chainId ? brownieConfig["networks"][networkName]["fau_token"] : constants.AddressZero
 
-    const supportedTokens: Array<Token> = {
+    const supportedTokens: Array<Token> = [
         {
-        image: dapp,
-            address: dapptokenAddress,
-                name: "DAPP"
-    },
-    {
-        image: eth,
+            image: dapp,
+            address: dappTokenAddress,
+            name: "DAPP"
+        },
+        {
+            image: eth,
             address: wethTokenAddress,
-                name: "WETH"
-    },
-    {
-        image: dai,
+            name: "WETH"
+        },
+        {
+            image: dai,
             address: fauTokenAddress,
-                name: "DAI"
-    }
+            name: "DAI"
+        }
 
-}
+    ]
 
-return (<YourWallet supportedTokens={supportedTokens} />)
+    return (<YourWallet supportedTokens={supportedTokens} />)
 }

@@ -17,3 +17,11 @@ check helper config dev id
 cd ./front_end/
 yarn add ethers
 
+cd ./front_end/
+yarn add @material-ui/lab
+
+yarn add ethersproject/units
+
+yarn add @ethersproject/contracts
+
+
