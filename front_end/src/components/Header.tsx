@@ -28,7 +28,7 @@ export const Header = () => {
                     </Button>
                 ) : (
                     <Button color="primary" variant="contained"
-                        onClick={activateBrowserWallet}>
+                        onClick={() => activateBrowserWallet()}>
                         Connect
                     </Button>
                 )

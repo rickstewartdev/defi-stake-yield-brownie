@@ -18,32 +18,10 @@
     "tests/unit/test_token_farm.py": {
       "coverage": false,
       "isolated": false,
-      "results": "...",
-      "sha1": "22c8d0410a88553438d2b5bb4b5bc2f1863a7f68",
-      "txhash": [
-        "f53c112cec066bba03f321f18589821c8b240e5a"
-      ]
+      "results": "sss",
+      "sha1": "4428bffc9872243fb7c12a1c5b5080c3c45d9799",
+      "txhash": []
     }
   },
-  "tx": {
-    "f53c112cec066bba03f321f18589821c8b240e5a": {
-      "TokenFarm": {
-        "0": [
-          [],
-          [],
-          []
-        ],
-        "2": [
-          [],
-          [],
-          []
-        ],
-        "4": [
-          [],
-          [],
-          []
-        ]
-      }
-    }
-  }
+  "tx": {}
 }
